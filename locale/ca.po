@@ -1,0 +1,35 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.statement.line,type:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "field:account.statement.line.type,account:"
+msgid "Account"
+msgstr "Compte"
+
+msgctxt "field:account.statement.line.type,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:account.statement.line.type,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "model:account.statement.line.type,name:"
+msgid "Statement Line Type"
+msgstr "Tipus de línia d'extracte"
+
+msgctxt "model:ir.action,name:act_statement_line_type"
+msgid "Statement Line Types"
+msgstr "Tipus de línia d'extracte"
+
+msgctxt "model:ir.rule.group,name:rule_group_account_statement_line_type"
+msgid "Account Statement Line Type Rule"
+msgstr "Tipus de línia d'extracte"
+
+msgctxt "model:ir.ui.menu,name:menu_statement_line_type"
+msgid "Statement Line Types"
+msgstr "Tipus de línia d'extracte"

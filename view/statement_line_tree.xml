@@ -1,0 +1,5 @@
+<data>
+    <xpath expr="/tree/field[@name='account']" position="before">
+        <field name="type"/>
+    </xpath>
+</data>
