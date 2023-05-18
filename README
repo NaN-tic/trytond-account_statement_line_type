@@ -1,7 +1,7 @@
-statement_line_types
+account_statement_line_type
 ====================
 
-The statement_line_types module of the Tryton application platform.
+The account_statement_line_type module of the Tryton application platform.
 
 Installing
 ----------
