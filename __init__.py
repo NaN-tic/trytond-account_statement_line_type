@@ -8,4 +8,4 @@ def register():
     Pool.register(
         statement.Type,
         statement.Line,
-        module='statement_line_types', type_='model')
+        module='account_statement_line_type', type_='model')
