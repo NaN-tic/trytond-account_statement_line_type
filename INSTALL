@@ -1,4 +1,4 @@
-Installing nantic_statement_line_types
+Installing nantic_account_statement_line_type
 ======================================
 
 Prerequisites
@@ -10,7 +10,7 @@ Prerequisites
 Installation
 ------------
 
-Once you've downloaded and unpacked the nantic_statement_line_types source
+Once you've downloaded and unpacked the nantic_account_statement_line_type source
 release, enter the directory where the archive was unpacked, and run:
 
     python setup.py install
@@ -26,4 +26,4 @@ documentation:
   http://docs.python.org/inst/inst.html
 
 To use without installation, extract the archive into ``trytond/modules`` with
-the directory name statement_line_types.
+the directory name account_statement_line_type.

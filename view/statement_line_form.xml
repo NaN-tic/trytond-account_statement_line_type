@@ -1,0 +1,6 @@
+<data>
+    <xpath expr="/form/field[@name='related_to']" position="after">
+        <label name="type"/>
+        <field name="type"/>
+    </xpath>
+</data>

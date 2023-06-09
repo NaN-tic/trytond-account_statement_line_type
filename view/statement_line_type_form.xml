@@ -1,0 +1,8 @@
+<form col="6">
+    <label name="name"/>
+    <field name="name"/>
+    <label name="account"/>
+    <field name="account"/>
+    <label name="company"/>
+    <field name="company"/>
+</form>
