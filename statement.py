@@ -7,6 +7,8 @@ from trytond.pyson import Eval, Id
 class Type(ModelSQL, ModelView):
     'Statement Line Type'
     __name__ = 'account.statement.line.type'
+
+    sign = fields.Selection("Sign", selection=[(("", ""), ("+", "Positive"), ("-", "Negative"), )])
     name = fields.Char('Name', required=True)
     company = fields.Many2One('company.company', 'Company', required=True)
     account = fields.Many2One('account.account', 'Account', required=True,
