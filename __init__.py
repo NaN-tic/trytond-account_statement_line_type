@@ -5,4 +5,4 @@ def register():
     Pool.register(
         statement.Type,
         statement.Line,
-        module="Minimitzar errors en la introducció de despeses en els extractes", type_="model")
+        module="account_statement_line_type", type_="model")
