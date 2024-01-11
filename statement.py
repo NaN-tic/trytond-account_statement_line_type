@@ -14,7 +14,7 @@ class Type(ModelSQL, ModelView):
             ('company', '=', Eval('company', 0)),
             ('type', '!=', None),
             ('closed', '!=', True),
-            ], depends=['company'])
+            ])
 
     @classmethod
     def default_company(cls):
@@ -26,7 +26,7 @@ class Line(metaclass=PoolMeta):
     type = fields.Many2One('account.statement.line.type', 'Type', required=True,
         domain=[
             ('company', '=', Eval('company', 0)),
-            ], depends=['company'])
+            ])
 
     @classmethod
     def __setup__(cls):
