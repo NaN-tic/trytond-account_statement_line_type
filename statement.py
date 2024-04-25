@@ -23,7 +23,11 @@ class Type(ModelSQL, ModelView):
 
 class Line(metaclass=PoolMeta):
     __name__ = 'account.statement.line'
-    type = fields.Many2One('account.statement.line.type', 'Type', required=True,
+    type = fields.Many2One('account.statement.line.type', 'Type',
+        states={
+            'required': ~Eval('context', {}).get('groups',
+                    []).contains(Id('account', 'group_account')),
+            },
         domain=[
             ('company', '=', Eval('company', 0)),
             ])
